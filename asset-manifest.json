@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Weather-Caster/static/css/main.2f4ecb63.css",
+    "main.js": "/Weather-Caster/static/js/main.65f5459e.js",
+    "index.html": "/Weather-Caster/index.html",
+    "main.2f4ecb63.css.map": "/Weather-Caster/static/css/main.2f4ecb63.css.map",
+    "main.65f5459e.js.map": "/Weather-Caster/static/js/main.65f5459e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f4ecb63.css",
+    "static/js/main.65f5459e.js"
+  ]
+}
