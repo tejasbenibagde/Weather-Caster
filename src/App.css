@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #E4E4D0;
+    font-family: 'Open Sans', sans-serif;
+}
+.main-container{
+    height: 100vh;
+    width: 100vw;
+}
+.input-field{
+    height: 10vh;
+    width: 100%;
+    background: #94A684;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-field > input{
+    outline: none;
+    border: none;
+    padding: 1vh 2vw;
+    border-radius: 0.2vh;
+    background: #E4E4D0;
+}
+
+.city{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #E4E4D0;
+    flex-direction: column;
+}
+
+.card{
+    height: auto;
+    width: auto;
+    background: #E4E4D0;
+    padding: 5vh 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2.5vh;
+    border-radius: 0.5vh;
+    filter: drop-shadow(0 0.5vh 5px #2d2d2a40);
+}
+.city-name{
+    font-size: 2vw;
+    color: #333;
+}
+.city-name > span{
+    color: #333;
+    padding: 0 0.3vw;
+}
+.city-name > sup{
+    font-size: 0.8vw;
+    background: #94A684;
+    padding: 0.3vh 0.4vw;
+    border-radius: 15vh;
+    color: #FFEEF4;
+}
+
+.city-temp{
+    font-size: 2.4vw;
+    color: #555;
+    font-weight: 700;
+}
+.city-temp > sup{
+    font-size: 1.2vw;
+}
+
+.city-wind{
+    display: flex;
+    color: #555;
+    gap: 1vw;
+}
+.city-wind > h4{
+    font-size: 1vw;
+}
+.city-wind > :nth-child(2){
+    color:#777;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.info > img{
+    height: 15vh;
+    width: auto;
+}
+.info > p{
+    font-size: 1vw;
+    color: #555;
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .input-field > input{
+        padding: 1.2vh 10vw;
+        font-size: 4vw;
+    }
+    .card{
+        padding: 5vh 20vw;
+    }
+    .city-name{
+        font-size: 7vw;
+    }
+    .city-name > span{
+        padding: 0 2vw;
+    }
+    .city-name > sup{
+        font-size: 3vw;
+        padding: 0.3vh 3vw;
+    }
+    .city-temp{
+        font-size: 7vw;
+    }
+    .city-temp > sup{
+        font-size: 3vw;
+    }
+
+    .city-wind > h4, .info > p{
+        font-size:3vw;
+    }
+
+}
